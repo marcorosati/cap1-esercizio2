@@ -1,0 +1,19 @@
+Esercizio2
+
+Setup
+ -docker pull registry.redhat.io/rhscl/httpd-24-rhel7
+ -push sul registro locale
+
+Info
+Nome app echo
+
+Task
+-creare un image stream apache-httpd nel progetto common usando l'imagine httpd-24-rhel7 
+-creare progetto deploy-image e creare un'app chiamata hello usando l'image stream apache-httpd
+-ps ax
+-cancellare tutte le risorse dal progetto deploy-image
+-cancellare il progetto deploy-image
+-cancellare il progetto common
+
+
+
