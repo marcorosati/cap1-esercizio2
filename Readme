@@ -1,6 +1,7 @@
 Esercizio2
 
 Setup
+ -docker image prune -a --filter "until=24h" (opzionale)
  -docker pull registry.redhat.io/rhscl/httpd-24-rhel7
  -push nel registro locale
 
